@@ -1043,7 +1043,7 @@
       "outputPath": "/Users/charlesburch/Desktop/projects/reactor/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/charlesburch/.nuget/NuGet/NuGet.Config"
+        "/Users/charlesburch/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

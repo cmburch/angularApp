@@ -1249,7 +1249,7 @@
       "outputPath": "/Users/charlesburch/Desktop/projects/reactor/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/charlesburch/.nuget/NuGet/NuGet.Config"
+        "/Users/charlesburch/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
