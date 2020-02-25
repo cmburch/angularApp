@@ -1230,7 +1230,7 @@
       "outputPath": "/Users/charlesburch/Desktop/projects/reactor/Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/charlesburch/.config/NuGet/NuGet.Config"
+        "/Users/charlesburch/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
