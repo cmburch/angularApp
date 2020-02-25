@@ -1,0 +1,8 @@
+/Users/charlesburch/Desktop/projects/reactor/Domain/bin/Debug/netstandard2.0/Domain.deps.json
+/Users/charlesburch/Desktop/projects/reactor/Domain/bin/Debug/netstandard2.0/Domain.dll
+/Users/charlesburch/Desktop/projects/reactor/Domain/bin/Debug/netstandard2.0/Domain.pdb
+/Users/charlesburch/Desktop/projects/reactor/Domain/obj/Debug/netstandard2.0/Domain.csprojAssemblyReference.cache
+/Users/charlesburch/Desktop/projects/reactor/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
+/Users/charlesburch/Desktop/projects/reactor/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
+/Users/charlesburch/Desktop/projects/reactor/Domain/obj/Debug/netstandard2.0/Domain.dll
+/Users/charlesburch/Desktop/projects/reactor/Domain/obj/Debug/netstandard2.0/Domain.pdb
