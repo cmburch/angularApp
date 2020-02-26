@@ -23,5 +23,11 @@
         {
             return await _mediator.Send(new List.Query());
         }
+
+        [HttpGet("{id}")]
+         public async Task<ActionResult<Activity>> Details(Guid id)
+         {
+             return await _mediator.Send(new Details.Query{Id = id});
+         }
      }
  } 
