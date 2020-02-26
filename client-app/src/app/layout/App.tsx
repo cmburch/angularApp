@@ -1,36 +1,31 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import { Header, Icon, List } from 'semantic-ui-react'
+import { IActivity } from '../models/activity';
 
-class App extends Component{
+const App = () => {
+  const [activities, setActivities] = useState<IActivity[]>([]);
 
-  state = {
-    activities: []
-  }
-
-  componentDidMount() {
-    axios.get('http://localhost:5000/api/activities')
-      .then((response) => {
-        this.setState({
-          activities: response.data
-        })
-      })
-  }
-  render() {
-      return (
-        <div>
-          <Header as="h2">
-            <Icon name="users" />
-            <Header.Content>Reactor</Header.Content>
-          </Header>
-          <List>
-            {this.state.activities.map((activity: any) => (
-              <List.Item key={activity.id}>{activity.title}</List.Item>
-            ))}
-          </List>
-        </div>
-      );
-  }
-}
+  useEffect(() => {
+    axios
+      .get<IActivity[]>("http://localhost:5000/api/activities")
+      .then(response => {
+        setActivities(response.data);
+      });
+  }, []);
+  return (
+    <div>
+      <Header as="h2">
+        <Icon name="users" />
+        <Header.Content>Reactor</Header.Content>
+      </Header>
+      <List>
+        {activities.map((activity: any) => (
+          <List.Item key={activity.id}>{activity.title}</List.Item>
+        ))}
+      </List>
+    </div>
+  );
+};
 
 export default App;
