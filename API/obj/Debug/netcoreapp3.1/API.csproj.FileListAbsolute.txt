@@ -63,3 +63,7 @@
 /Users/charlesburch/Desktop/projects/reactor/API/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
 /Users/charlesburch/Desktop/projects/reactor/API/bin/Debug/netcoreapp3.1/Infrastructure.dll
 /Users/charlesburch/Desktop/projects/reactor/API/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+/Users/charlesburch/Desktop/projects/reactor/API/bin/Debug/netcoreapp3.1/API.StaticWebAssets.xml
+/Users/charlesburch/Desktop/projects/reactor/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+/Users/charlesburch/Desktop/projects/reactor/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+/Users/charlesburch/Desktop/projects/reactor/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.dll
